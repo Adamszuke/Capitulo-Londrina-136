@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "periodo": "2024/2",
+    "MC": "Natan Theodoro de Quadro Dias",
+    "resumo": "Cara bacana",
+    "foto": "assets/img/MCs/default.png",
+    "biografia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cargos":[
+
+    ],
+    "premios":[
+
+    ]
+  },
+  {
+    "id": 2,
+    "periodo": "2025/1",
+    "MC": "Gabriel Nakagawa Adamszuke",
+    "resumo": "Cara mais bacana ainda",
+    "foto": "assets/img/MCs/Gabriel-Adamszuke.jpeg",
+    "biografia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cargos":[
+      "Hospitaleiro 2023/1",
+      "Escrivão 2023/2",
+      "2° Conselheiro 2024/1",
+      "1° Conselheiro 2024/2",
+      "Mestre Conselheiro 2025/1",
+      "Tesoureiro 2025/2"
+    ],
+    "premios":[
+      {
+        "nome": "Caneta de Ouro",
+        "icone": "assets/img/premios/caneta-de-ouro.png"
+      },
+      {
+        "nome": "Tirando o Chapéu",
+        "icone": "assets/img/premios/tirando-chapeu.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "periodo": "2025/2",
+    "MC": "Carlos Henrique Pilla",
+    "resumo": "Cara bacana",
+    "foto": "assets/img/MCs/default.png",
+    "biografia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cargos":[
+
+    ],
+    "premios":[
+
+    ]
+  }
+]

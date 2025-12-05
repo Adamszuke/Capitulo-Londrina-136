@@ -1,0 +1,424 @@
+/* =========================================
+   1. VARIÁVEIS GERAIS
+   ========================================= */
+:root {
+    --primary-color: #000000;   /*Cor principal*/
+    --accent-color: #e62d15;    /* Cor dos botões botões */
+    --bg-cards: #f9f9f9;        /* Fundo da área dos cards */
+    --text-color: #333333;      /* Cor do texto padrão */
+    --white: #ffffff;           /* Cor branca */
+    --header-color: #951717;    /* Cor do cabeçalho */
+    --shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra padrão */
+    --transition: all 0.3s ease;   /* Transição suave */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* Garante que o padding não aumente o tamanho dos boxes */
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: var(--bg-cards);
+}
+
+/* Container que centraliza o site e impede que fique "esticado" em telas maiores */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* =========================================
+   2. HEADER (Cabeçalho)
+   ========================================= */
+.main-header {
+    background-color: var(--header-color);
+    box-shadow: var(--shadow);
+    position: sticky; /* Fica fixo ao rolar a página */
+    top: 0;
+    z-index: 1000;
+    padding: 1px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 120px; 
+    width: auto;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav a {
+    font-weight: 500;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.main-nav a:hover {
+    color: var(--accent-color);
+}
+
+/* =========================================
+   3. HERO SECTION 
+   ========================================= */
+.hero-section {
+    padding: 80px 0;
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    opacity: 0.9;
+}
+
+/* Botão de Chamada */
+.btn-cta {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--white);
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: var(--transition);
+}
+
+.btn-cta:hover {
+    background-color: #a82312; /* Vermelho um pouco mais escuro */
+    transform: translateY(-2px); /* Efeito de "levantar" */
+}
+
+/* =========================================
+   4. HISTÓRIA (Grid de Cards)
+   ========================================= */
+.history-section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+/* GRID */
+.cards-grid {
+    display: grid;
+    /* Cria colunas automáticas com mínimo de 300px de largura */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px;
+}
+
+/* Estilo do Card (Será gerado pelo JS, mas estilizado aqui) */
+.gestao-card {
+    background: var(--white);
+    border-radius: 10px;
+    overflow: hidden; /* Garante que a imagem não saia das bordas arredondadas */
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    border-bottom: 4px solid transparent;
+}
+
+.gestao-card:hover {
+    transform: translateY(-10px); /* O card sobe quando passa o mouse */
+    box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+    border-bottom: 4px solid var(--accent-color);
+}
+
+/* Área da Imagem do Card */
+.card-img-wrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: #ddd; /* Cor de fundo enquanto carrega */
+}
+
+.card-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* A imagem cobre a área sem distorcer */
+}
+
+/* Área de Texto do Card */
+.card-content {
+    padding: 20px;
+}
+
+.card-period {
+    font-size: 0.85rem;
+    color: var(--accent-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.card-resume {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* =========================================
+   5. FOOTER (Rodapé)
+   ========================================= */
+.main-footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 40px 0 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite quebrar linha no mobile */
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-info h3 {
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    display: block;
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+.footer-social a:hover {
+    color: var(--white);
+    padding-left: 5px; /* Pequeno movimento para a direita */
+}
+
+
+/* =========================================
+   6. RESPONSIVIDADE (Ajustes para Mobile)
+   ========================================= */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+/* =========================================
+   7. MODAL (POPUP)
+   ========================================= */
+/* Fundo escuro atrás do modal */
+.modal-overlay {
+    display: none; /* Escondido por padrão */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto transparente */
+    z-index: 2000; /* Fica acima do header */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Quando estiver ativo (via JS) */
+.modal-overlay.show {
+    display: flex;
+    opacity: 1;
+}
+
+/* A caixa branca do modal */
+.modal-content {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 10px;
+    
+    /* Larguta máxima do modal */
+    max-width: 1100px; 
+    
+    width: 95%; /* Garante que não estoure em telas de tablets menores */
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Layout interno do modal */
+.modal-body {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.modal-img-wrapper {
+    flex: 1;
+    max-width: 450px; 
+}
+
+.modal-img-wrapper img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+
+.modal-text {
+    flex: 2;
+}
+
+#modal-titulo {
+    color: var(--header-color);
+    margin-bottom: 15px;
+}
+
+/* Botão de fechar (X) */
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.close-btn:hover {
+    color: var(--accent-color);
+}
+
+/* Ajuste no card para mostrar que é clicável */
+.gestao-card {
+    cursor: pointer;
+}
+
+/* Responsivo do Modal */
+@media (max-width: 1000px) {
+    .modal-body {
+        flex-direction: column;
+    }
+    .modal-img-wrapper {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos das Listas do Modal */
+.modal-lists {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Quebra linha se ficar apertado */
+    gap: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.list-group {
+    flex: 1;
+    min-width: 200px; /* Garante que não fique espremido */
+}
+
+.list-group h4 {
+    color: var(--accent-color);
+    margin-bottom: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.list-group ul li {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* Remove a bolinha padrão da lista de prêmios, pois a imagem será o "bullet" */
+#modal-premios li {
+    list-style: none; 
+    margin-left: 0; /* Remove recuo padrão */
+}
+
+/* Tamanho do ícone */
+.item-premio img {
+    width: 60px;  
+    height: 60px;
+    
+    object-fit: contain; /* Garante que a imagem não estique/distorça */
+}
+
+.item-premio {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    margin-bottom: 15px; 
+    padding: 5px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.item-premio span {
+    font-weight: 700; 
+    font-size: 1.1rem; 
+    color: var(--primary-color);
+}
+
+/* Caso não tenha prêmio */
+.sem-premio {
+    color: #999;
+    font-style: italic;
+    list-style: none;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Londrina 136</title>
+
+    <link rel="icon" href="Assets/img/Logo136.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="Assets/img/Logo136.png" alt="Logo da Organização">
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#historia">Nossa História</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="sobre" class="hero-section">
+            <div class="container">
+                <h1>Preservando nosso Legado</h1>
+                <p class="hero-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Molestias eligendi consectetur voluptas velit nihil, 
+                    cupiditate neque nesciunt nam laudantium adipisci ut est perspiciatis illo dolore sunt quas, 
+                    a aliquam eveniet.
+                </p>
+                <a href="#historia" class="btn-cta">Ver Gestões</a>
+            </div>
+        </section>
+
+        <section id="historia" class="history-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Galeria de Gestões</h2>
+                    <p>Conheça as lideranças que marcaram época.</p>
+                </div>
+
+                <div id="container-gestoes" class="cards-grid">
+                    </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contato" class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Londrina n°136</h3>
+                <p>capitulo136@demolaybrasil.org.br</p>
+            </div>
+            
+            <div class="footer-social">
+                <a href="https://www.instagram.com/capitulo136/">Instagram
+                    <img src="assets/icons/instagram.svg" alt="Ícone Instagram" style="width: 15px; vertical-align: middle;">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <div id="modal-gestao" class="modal-overlay">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                
+                <div class="modal-body">
+                    <div class="modal-img-wrapper">
+                        <img id="modal-img" src="" alt="">
+                    </div>
+                    <div class="modal-text">
+                        <span id="modal-periodo" class="card-period"></span>
+                        <h2 id="modal-titulo"></h2>
+                        <p id="modal-descricao"></p>
+
+                        <div class="modal-lists">
+                            <div class="list-group">
+                                <h4>Cargos Exercidos</h4>
+                                <ul id="modal-cargos">
+                                    </ul>
+                            </div>
+
+                            <div class="list-group">
+                                <h4>Premiações</h4>
+                                <ul id="modal-premios">
+                                    </ul>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
