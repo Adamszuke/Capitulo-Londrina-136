@@ -4,7 +4,7 @@
     "periodo": "2024/2",
     "MC": "Natan Theodoro de Quadro Dias",
     "resumo": "Cara bacana",
-    "foto": "assets/img/MCs/default.png",
+    "foto": "Assets/img/MCs/default.png",
     "biografia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cargos":[
 
@@ -18,7 +18,7 @@
     "periodo": "2025/1",
     "MC": "Gabriel Nakagawa Adamszuke",
     "resumo": "Cara mais bacana ainda",
-    "foto": "assets/img/MCs/Gabriel-Adamszuke.jpeg",
+    "foto": "Assets/img/MCs/Gabriel-Adamszuke.jpeg",
     "biografia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cargos":[
       "Hospitaleiro 2023/1",
@@ -30,12 +30,24 @@
     ],
     "premios":[
       {
-        "nome": "Caneta de Ouro",
-        "icone": "assets/img/premios/caneta-de-ouro.png"
+        "nome": "Caneta de Ouro 2023/2",
+        "icone": "Assets/img/premios/caneta-de-ouro.png"
       },
       {
-        "nome": "Tirando o Chapéu",
-        "icone": "assets/img/premios/tirando-chapeu.png"
+        "nome": "Tirando o Chapéu 11/06/2024",
+        "icone": "Assets/img/premios/tirando-chapeu.png"
+      },
+      {
+        "nome": "Protocolista de Ouro 2024",
+        "icone": "Assets/img/premios/protocolista-de-ouro.png"
+      },
+      {
+        "nome": "Barra de Mérito Priorado 26/05/2025",
+        "icone": "Assets/img/premios/barra-merito-priorado.png"
+      },
+      {
+        "nome": "Prêmio Por serviço Meritório - MC 2025/1",
+        "icone": "Assets/img/premios/PSM-MC.png"
       }
     ]
   },
@@ -44,7 +56,7 @@
     "periodo": "2025/2",
     "MC": "Carlos Henrique Pilla",
     "resumo": "Cara bacana",
-    "foto": "assets/img/MCs/default.png",
+    "foto": "Assets/img/MCs/default.png",
     "biografia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cargos":[
 
