@@ -199,6 +199,17 @@ ul {
     color: #666;
 }
 
+/* Botão Carregar Mais */
+.load-more-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Classe para esconder o botão quando não houver mais cards */
+.hidden {
+    display: none !important;
+}
+
 /* =========================================
    5. FOOTER (Rodapé)
    ========================================= */
