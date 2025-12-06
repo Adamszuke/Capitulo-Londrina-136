@@ -295,13 +295,15 @@ ul {
     padding: 30px;
     border-radius: 10px;
     
-    /* Larguta máxima do modal */
+    /* Largura máxima do modal */
     max-width: 1100px; 
-    
-    width: 95%; /* Garante que não estoure em telas de tablets menores */
+    width: 95%; 
     position: relative;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     animation: slideUp 0.3s ease;
+
+    max-height: 90vh; 
+    overflow-y: auto; 
 }
 
 @keyframes slideUp {
@@ -366,13 +368,20 @@ ul {
         max-width: 100%;
         margin-bottom: 20px;
     }
+
+    /* --- ADICIONE ISSO --- */
+    .modal-content {
+        padding: 20px; 
+        width: 90%;    
+        max-height: 85vh; 
+    }
 }
 
 /* Estilos das Listas do Modal */
 .modal-lists {
     margin-top: 20px;
     display: flex;
-    flex-wrap: wrap; /* Quebra linha se ficar apertado */
+    flex-wrap: wrap; 
     gap: 20px;
     border-top: 1px solid #eee;
     padding-top: 20px;
@@ -380,7 +389,7 @@ ul {
 
 .list-group {
     flex: 1;
-    min-width: 200px; /* Garante que não fique espremido */
+    min-width: 200px; 
 }
 
 .list-group h4 {
