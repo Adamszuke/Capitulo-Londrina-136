@@ -1,11 +1,10 @@
-[
-  {
+[  {
     "id": 1,
-    "periodo": "2024/2",
-    "MC": "Natan Theodoro de Quadro Dias",
-    "resumo": "Cara bacana",
+    "periodo": "1991/1",
+    "MC": "Marcio Muzulli",
+    "resumo": "1ª Gestão",
     "foto": "Assets/img/MCs/default.png",
-    "biografia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "biografia": "Primeira Gestão do Capítulo Londrina",
     "cargos":[
 
     ],
@@ -15,11 +14,80 @@
   },
   {
     "id": 2,
+    "periodo": "1991/2",
+    "MC": "Marcio Muzulli",
+    "resumo": "2ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "Segunda Gestão do Capítulo Londrina",
+    "cargos":[
+
+    ],
+    "premios":[
+
+    ]
+  },
+  {
+    "id": 3,
+    "periodo": "1992/1",
+    "MC": "Eduardo Scarchetti",
+    "resumo": "3ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "Terceira Gestão do Capítulo Londrina",
+    "cargos":[
+
+    ],
+    "premios":[
+
+    ]
+  },
+  {
+    "id": 4,
+    "periodo": "1992/2",
+    "MC": "Fabiano Atanazio Machad",
+    "resumo": "4ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "Quarta Gestão do Capítulo Londrina",
+    "cargos":[
+
+    ],
+    "premios":[
+
+    ]
+  },
+  {
+    "id": 69,
+    "periodo": "2024/2",
+    "MC": "Natan Theodoro de Quadro Dias",
+    "resumo": "69ª Gestão",
+    "foto": "Assets/img/MCs/Natan-Dias.jpeg",
+    "biografia": "Sexagésima nona Gestão do Capítulo Londrina",
+    "cargos":[
+      "2° Conselheiro 2023/2",
+      "1° Conselheiro 2024/1",
+      "Mestre Conselheiro 2024/2"
+    ],
+    "premios":[
+      {
+        "nome": "Tirando o Chapéu 11/06/2024",
+        "icone": "Assets/img/premios/tirando-chapeu.png"
+      },
+      {
+        "nome":"Prêmio Por serviço Meritório - MC 2024/2",
+        "icone":"Assets/img/premios/PSM-MC.png"
+      },
+      {
+        "nome":"Barra de Mérito Priorado 26/05/2025",
+        "icone":"Assets/img/premios/barra-merito-priorado.png"
+      }
+    ]
+  },
+  {
+    "id": 70,
     "periodo": "2025/1",
     "MC": "Gabriel Nakagawa Adamszuke",
-    "resumo": "Cara mais bacana ainda",
+    "resumo": "70ª Gestão",
     "foto": "Assets/img/MCs/Gabriel-Adamszuke.jpeg",
-    "biografia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "biografia": "Septuagésima Gestão do Capítulo Londrina",
     "cargos":[
       "Hospitaleiro 2023/1",
       "Escrivão 2023/2",
@@ -52,10 +120,10 @@
     ]
   },
   {
-    "id": 3,
+    "id": 71,
     "periodo": "2025/2",
     "MC": "Carlos Henrique Pilla",
-    "resumo": "Cara bacana",
+    "resumo": "71ª Gestão",
     "foto": "Assets/img/MCs/default.png",
     "biografia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cargos":[
