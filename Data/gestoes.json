@@ -1,16 +1,13 @@
-[  {
+[
+  {
     "id": 1,
     "periodo": "1991/1",
     "MC": "Marcio Muzulli",
     "resumo": "1ª Gestão",
     "foto": "Assets/img/MCs/default.png",
     "biografia": "Primeira Gestão do Capítulo Londrina",
-    "cargos":[
-
-    ],
-    "premios":[
-
-    ]
+    "cargos": [],
+    "premios": []
   },
   {
     "id": 2,
@@ -19,12 +16,8 @@
     "resumo": "2ª Gestão",
     "foto": "Assets/img/MCs/default.png",
     "biografia": "Segunda Gestão do Capítulo Londrina",
-    "cargos":[
-
-    ],
-    "premios":[
-
-    ]
+    "cargos": [],
+    "premios": []
   },
   {
     "id": 3,
@@ -33,26 +26,658 @@
     "resumo": "3ª Gestão",
     "foto": "Assets/img/MCs/default.png",
     "biografia": "Terceira Gestão do Capítulo Londrina",
-    "cargos":[
-
-    ],
-    "premios":[
-
-    ]
+    "cargos": [],
+    "premios": []
   },
   {
     "id": 4,
     "periodo": "1992/2",
-    "MC": "Fabiano Atanazio Machad",
+    "MC": "Fabiano Atanazio Machado",
     "resumo": "4ª Gestão",
     "foto": "Assets/img/MCs/default.png",
     "biografia": "Quarta Gestão do Capítulo Londrina",
-    "cargos":[
-
-    ],
-    "premios":[
-
-    ]
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 5,
+    "periodo": "1993/1",
+    "MC": "Eduardo Kalil Bondioli",
+    "resumo": "5ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "Quinta Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 6,
+    "periodo": "1993/2",
+    "MC": "Ricardo Domingues Brito",
+    "resumo": "6ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "Sexta Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 7,
+    "periodo": "1994/1",
+    "MC": "Humberto de J. Bottura",
+    "resumo": "7ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "Sétima Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 8,
+    "periodo": "1994/2",
+    "MC": "Cesar Augusto Scalassara",
+    "resumo": "8ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "Oitava Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 9,
+    "periodo": "1995/1",
+    "MC": "Luís Fernando Baxhix",
+    "resumo": "9ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "Nona Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 10,
+    "periodo": "1995/2",
+    "MC": "Armando Albertoni Junior",
+    "resumo": "10ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "Décima Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 11,
+    "periodo": "1996/1",
+    "MC": "Harlem Fernando da Costa",
+    "resumo": "11ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "11ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 12,
+    "periodo": "1996/2",
+    "MC": "Igor Silva de Lima",
+    "resumo": "12ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "12ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 13,
+    "periodo": "1997/1",
+    "MC": "Márcio Barros Mendes",
+    "resumo": "13ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "13ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 14,
+    "periodo": "1997/2",
+    "MC": "Maurilio Fregonezi Jr",
+    "resumo": "14ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "14ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 15,
+    "periodo": "1998/1",
+    "MC": "Rodrigo da Costa Sabec",
+    "resumo": "15ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "15ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 16,
+    "periodo": "1998/2",
+    "MC": "Jossan Batistute",
+    "resumo": "16ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "16ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 17,
+    "periodo": "1999/1",
+    "MC": "Amauri Willms",
+    "resumo": "17ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "17ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 18,
+    "periodo": "1999/2",
+    "MC": "Igor Silva de Lima",
+    "resumo": "18ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "18ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 19,
+    "periodo": "2000/1",
+    "MC": "Eduardo Rosa Rampazzo",
+    "resumo": "19ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "19ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 20,
+    "periodo": "2000/2",
+    "MC": "Heber Santos Gonçalves",
+    "resumo": "20ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "20ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 21,
+    "periodo": "2001/1",
+    "MC": "Hebert Augusto da Costa",
+    "resumo": "21ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "21ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 22,
+    "periodo": "2001/2",
+    "MC": "Diogo G. D’Olivo",
+    "resumo": "22ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "22ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 23,
+    "periodo": "2002/1",
+    "MC": "Carlos Cesar Mozer dos Santos",
+    "resumo": "23ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "23ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 24,
+    "periodo": "2002/2",
+    "MC": "Ricardo Muzilli",
+    "resumo": "24ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "24ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 25,
+    "periodo": "2003/1",
+    "MC": "Leonardo Rosa",
+    "resumo": "25ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "25ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 26,
+    "periodo": "2003/2",
+    "MC": "Alexandre Franco Ferreira",
+    "resumo": "26ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "26ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 27,
+    "periodo": "2004/1",
+    "MC": "Luiz Felipe Z. de Campos",
+    "resumo": "27ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "27ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 28,
+    "periodo": "2004/2",
+    "MC": "Marcel Bataglia Gonçalves",
+    "resumo": "28ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "28ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 29,
+    "periodo": "2005/1",
+    "MC": "Bruno Bruniere Ragugnetti",
+    "resumo": "29ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "29ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 30,
+    "periodo": "2005/2",
+    "MC": "Alexandre Albertoni",
+    "resumo": "30ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "30ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 31,
+    "periodo": "2006/1",
+    "MC": "Marcos Moya",
+    "resumo": "31ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "31ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 32,
+    "periodo": "2006/2",
+    "MC": "Daniel Reeberg de Mello",
+    "resumo": "32ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "32ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 33,
+    "periodo": "2007/1",
+    "MC": "Carlos Roberto Ferrari Junior",
+    "resumo": "33ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "33ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 34,
+    "periodo": "2007/2",
+    "MC": "João Gabriel Torres Albertoni",
+    "resumo": "34ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "34ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 35,
+    "periodo": "2008/1",
+    "MC": "Pedro Antônio Rampazzo de Oliveira",
+    "resumo": "35ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "35ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 36,
+    "periodo": "2008/2",
+    "MC": "Augusto Bonatti Vieira",
+    "resumo": "36ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "36ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 37,
+    "periodo": "2009/1",
+    "MC": "Rafael Ribeiro Felix",
+    "resumo": "37ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "37ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 38,
+    "periodo": "2009/2",
+    "MC": "Cesar Felipe Leita Galvani",
+    "resumo": "38ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "38ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 39,
+    "periodo": "2010/1",
+    "MC": "Pedro Antônio Rampazzo de Oliveira",
+    "resumo": "39ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "39ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 40,
+    "periodo": "2010/2",
+    "MC": "Oton Henrique Marcori",
+    "resumo": "40ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "40ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 41,
+    "periodo": "2011/1",
+    "MC": "Rafael Gomes Pães de Brito",
+    "resumo": "41ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "41ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 42,
+    "periodo": "2011/2",
+    "MC": "João Paulo Francescon",
+    "resumo": "42ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "42ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 43,
+    "periodo": "2012/1",
+    "MC": "Alexandre Jehan Marcori",
+    "resumo": "43ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "43ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 44,
+    "periodo": "2012/2",
+    "MC": "João Pedro de Oliveira e Silva",
+    "resumo": "44ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "44ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 45,
+    "periodo": "2013/1",
+    "MC": "Alfredo Rodrigo Lins Machado",
+    "resumo": "45ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "45ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 46,
+    "periodo": "2013/2",
+    "MC": "Alfredo Rodrigo Lins Machado",
+    "resumo": "46ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "46ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 47,
+    "periodo": "2014/1",
+    "MC": "Jonatas Beranger Júnior / Guilherme Bardaçon Sandaniel",
+    "resumo": "47ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "47ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 48,
+    "periodo": "2014/2",
+    "MC": "Rafael Marques Silva",
+    "resumo": "48ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "48ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 49,
+    "periodo": "2015/1",
+    "MC": "Jhonatan Henrique dos Santos",
+    "resumo": "49ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "49ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 50,
+    "periodo": "2015/2",
+    "MC": "Bernardo Costa Mendes",
+    "resumo": "50ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "50ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 51,
+    "periodo": "2016/1",
+    "MC": "Pedro Henrique Leonardi Batyras",
+    "resumo": "51ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "51ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 52,
+    "periodo": "2016/2",
+    "MC": "Pedro Luiz Forlan de Paula",
+    "resumo": "52ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "52ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 53,
+    "periodo": "2017/1",
+    "MC": "Alyson Almeida Crippa",
+    "resumo": "53ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "53ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 54,
+    "periodo": "2017/2",
+    "MC": "Léo Felipe de Oliveira Erlich",
+    "resumo": "54ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "54ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 55,
+    "periodo": "2018/1",
+    "MC": "Matheus Eduardo Melo Cougo Rosa",
+    "resumo": "55ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "55ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 56,
+    "periodo": "2018/2",
+    "MC": "Vitor Hugo Pascon Leite da Silva",
+    "resumo": "56ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "56ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 57,
+    "periodo": "2019/1",
+    "MC": "Lucca Corzanego Tomasetti",
+    "resumo": "57ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "57ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 58,
+    "periodo": "2019/2",
+    "MC": "Luiz Carlos Marconato Junior",
+    "resumo": "58ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "58ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 59,
+    "periodo": "2020/1",
+    "MC": "Gustavo de Macedo Marquesete",
+    "resumo": "59ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "59ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 60,
+    "periodo": "2020/2",
+    "MC": "Gustavo de Macedo Marquesete",
+    "resumo": "60ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "60ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 61,
+    "periodo": "2021/1",
+    "MC": "Felipe Luiz Borges de Lima",
+    "resumo": "61ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "61ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 62,
+    "periodo": "2021/2",
+    "MC": "Marco Antônio Lourenço Jr",
+    "resumo": "62ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "62ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 63,
+    "periodo": "2022/1",
+    "MC": "Luís Fernando Rossini Silva",
+    "resumo": "63ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "63ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 64,
+    "periodo": "2022/2",
+    "MC": "Marco Antônio Carrara",
+    "resumo": "64ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "64ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 65,
+    "periodo": "2023/1",
+    "MC": "João Otávio de Oliveira",
+    "resumo": "65ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "65ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 66,
+    "periodo": "2023/2",
+    "MC": "Diogo Birello",
+    "resumo": "66ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "66ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 67,
+    "periodo": "2024/1",
+    "MC": "André Luiz Moses Xocaira",
+    "resumo": "67ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "67ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 68,
+    "periodo": "2024/1",
+    "MC": "André Luiz Moses Xocaira",
+    "resumo": "68ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "68ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
   },
   {
     "id": 69,
@@ -61,23 +686,23 @@
     "resumo": "69ª Gestão",
     "foto": "Assets/img/MCs/Natan-Dias.jpeg",
     "biografia": "Sexagésima nona Gestão do Capítulo Londrina",
-    "cargos":[
+    "cargos": [
       "2° Conselheiro 2023/2",
       "1° Conselheiro 2024/1",
       "Mestre Conselheiro 2024/2"
     ],
-    "premios":[
+    "premios": [
       {
         "nome": "Tirando o Chapéu 11/06/2024",
         "icone": "Assets/img/premios/tirando-chapeu.png"
       },
       {
-        "nome":"Prêmio Por serviço Meritório - MC 2024/2",
-        "icone":"Assets/img/premios/PSM-MC.png"
+        "nome": "Prêmio Por serviço Meritório - MC 2024/2",
+        "icone": "Assets/img/premios/PSM-MC.png"
       },
       {
-        "nome":"Barra de Mérito Priorado 26/05/2025",
-        "icone":"Assets/img/premios/barra-merito-priorado.png"
+        "nome": "Barra de Mérito Priorado 26/05/2025",
+        "icone": "Assets/img/premios/barra-merito-priorado.png"
       }
     ]
   },
@@ -88,7 +713,7 @@
     "resumo": "70ª Gestão",
     "foto": "Assets/img/MCs/Gabriel-Adamszuke.jpeg",
     "biografia": "Septuagésima Gestão do Capítulo Londrina",
-    "cargos":[
+    "cargos": [
       "Hospitaleiro 2023/1",
       "Escrivão 2023/2",
       "2° Conselheiro 2024/1",
@@ -96,7 +721,7 @@
       "Mestre Conselheiro 2025/1",
       "Tesoureiro 2025/2"
     ],
-    "premios":[
+    "premios": [
       {
         "nome": "Caneta de Ouro 2023/2",
         "icone": "Assets/img/premios/caneta-de-ouro.png"
@@ -125,12 +750,18 @@
     "MC": "Carlos Henrique Pilla",
     "resumo": "71ª Gestão",
     "foto": "Assets/img/MCs/default.png",
-    "biografia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "cargos":[
-
-    ],
-    "premios":[
-
-    ]
+    "biografia": "71ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
+  },
+  {
+    "id": 72,
+    "periodo": "2026/1",
+    "MC": "Carlos Henrique Pilla",
+    "resumo": "72ª Gestão",
+    "foto": "Assets/img/MCs/default.png",
+    "biografia": "72ª Gestão do Capítulo Londrina",
+    "cargos": [],
+    "premios": []
   }
 ]
